@@ -1,0 +1,179 @@
+@charset "utf-8";
+
+@import "designs.css";
+
+/* Import Basic Design Styles  */
+nav#bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+nav#bottom ul {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 150px;
+  flex: 0 1 150px;
+}
+
+/* ===============================
+	General Styles for All Devices
+   ===============================
+*/
+
+/* ===============================
+	Mobile Styles up to 480 pixels
+   ===============================
+*/
+@media only screen and (max-width: 480px) {
+  body {
+    color: rgb(211, 211, 211);
+    background-color: rgb(51, 51, 51);
+  }
+  aside,
+  article img,
+  section#spotlight {
+    display: none;
+  }
+
+  nav#top ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+  }
+  nav#top ul li {
+    font-size: 2.2em;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 130px;
+    flex: 1 1 130px;
+  }
+
+  nav#top ul li:nth-of-type(1) {
+    background-image: url(images/image1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  nav#top ul li:nth-of-type(2) {
+    background-image: url(images/image2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  nav#top ul li:nth-of-type(3) {
+    background-image: url(images/image3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  nav#top ul li:nth-of-type(4) {
+    background-image: url(images/image4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  nav#top ul li:nth-of-type(5) {
+    background-image: url(./images/image6.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  nav#top ul li:nth-of-type(6) {
+    background-image: url(./images/image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  p#links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+  }
+
+  p#links a {
+    color: white;
+    background-color: rgb(220, 27, 27);
+    border-radius: 20px;
+    padding: 10px;
+    text-decoration: none;
+  }
+}
+
+/* ============================================
+	Tablet and Desktop Devices: 481px or more 
+   ============================================
+*/
+@media only screen and (min-width: 490px) {
+  body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+  }
+
+  article {
+    -webkit-box-flex: 2;
+    -ms-flex: 2 1 400px;
+    flex: 2 1 400px;
+  }
+
+  aside {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 2 200px;
+    flex: 1 2 200px;
+  }
+
+  nav#top ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    background-color: rgb(51, 51, 51);
+    height: 50px;
+    /* align-content: center; */
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  nav#top ul li {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 50px;
+    flex: 1 1 50px;
+  }
+
+  #links {
+    display: none;
+  }
+}
