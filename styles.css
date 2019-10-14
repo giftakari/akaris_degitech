@@ -59,42 +59,42 @@ nav#bottom ul {
   }
 
   nav#top ul li:nth-of-type(1) {
-    background-image: url(images/image1.png);
+    background-image: url(images/akaris_network.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
   }
 
   nav#top ul li:nth-of-type(2) {
-    background-image: url(images/image2.png);
+    background-image: url(images/akaris_office.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
   }
 
   nav#top ul li:nth-of-type(3) {
-    background-image: url(images/image3.png);
+    background-image: url(images/akaris_achitech.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
   }
 
   nav#top ul li:nth-of-type(4) {
-    background-image: url(images/image4.png);
+    background-image: url(images/akaris_biz.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
   }
 
   nav#top ul li:nth-of-type(5) {
-    background-image: url(./images/image6.png);
+    background-image: url(./images/akaris_business.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
   }
 
   nav#top ul li:nth-of-type(6) {
-    background-image: url(./images/image.png);
+    background-image: url(./images/akaris_engr.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
